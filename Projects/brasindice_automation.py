@@ -25,7 +25,7 @@ try:
 
     login_element.clear()
 
-    login_element.send_keys('ti@hsan.com.br')
+    login_element.send_keys('email')
 
     password_element = driver.find_element(By.ID, 'login_pwd')
     password_element.click()
@@ -34,7 +34,7 @@ try:
 
     password_element.clear()
 
-    password_element.send_keys('EN1MJ7ZYK')
+    password_element.send_keys('password')
 
     time.sleep(5)
 
